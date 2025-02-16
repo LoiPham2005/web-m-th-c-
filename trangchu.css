@@ -1,0 +1,348 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /* height: 5000px; */
+}
+
+.diachi {
+    color: white;
+    font-size: 17px;
+    background-color: rgb(243, 156, 18);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 300px; */
+}
+
+header {
+    height: 120px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    /* margin-bottom: 90px; */
+}
+
+header.logo>img {
+    width: 100%;
+}
+
+menu>ul {
+    list-style: none;
+    display: flex;
+}
+
+menu>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+menu>ul>li {
+    padding: 15px;
+}
+
+.dau3gach {
+    display: none;
+}
+
+.banner>img {
+    width: 100%;
+}
+
+.title {
+    height: 150px;
+    width: 1350px;
+    width: 100%;
+}
+
+.title>.tieude {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: rgb(230, 126, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title>.doangioithieu {
+    text-align: center;
+    /* width: 1350px; */
+    width: 100%;
+
+}
+/* .banner {
+    margin-top: 100px;
+} */
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.banner1>img {
+    width: 100%;
+}
+
+.thucdon {
+    background-color: rgb(249, 245, 241);
+    height: 900px;
+    width: 100%;
+
+}
+
+.thucdon>.tieude {
+    color: rgb(230, 126, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.monan {
+    display: flex;
+    width: 1350px;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.mon1 {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+}
+
+.mon1>img {
+    width: 100%;
+}
+
+.mon1>p {
+    color: rgb(230, 126, 34);
+    padding: 10px 0px;
+}
+
+.tieude2 {
+    text-align: center;
+    color: rgb(230, 126, 34);
+    margin: 40px 0px;
+}
+
+.tieuchi {
+    display: flex;
+    /* width: 1350px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.bando {
+    width: 50%;
+}
+
+.bando>img {
+    width: 100%;
+}
+
+.chatluong>ul {
+    list-style: none;
+    /* width: 50%; */
+}
+
+.chatluong>ul>li>a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.chatluong>ul>li {
+    padding: 20px 0px;
+}
+
+.datban {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(114, 96, 62);
+    text-align: center;
+}
+
+.thongtin {
+    color: white;
+}
+
+.thongtin>h2 {
+    padding: 20px 0px;
+}
+
+.thongtin>p {
+    padding-bottom: 20px;
+}
+
+.nhap>input {
+    height: 30px;
+    width: 300px;
+    margin: 10px 7px;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(184, 101, 27);
+    border: 0px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(58, 58, 58);
+}
+
+.footer1 {
+    width: 50%;
+    color: white;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.footer1>img {
+    width: 300px;
+    margin-left: 0px;
+}
+
+.footer1>p {
+    line-height: 40px;
+}
+
+.footer2 {
+    width: 50%;
+    margin-top: 0px;
+}
+
+.footer2>h2 {
+    color: white;
+    padding: 20px 0px;
+}
+
+.footer2>ul {
+    list-style: none;
+}
+
+.footer2>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer2>ul>li {
+    padding: 7px 0px;
+}
+
+
+@media only all and (max-width: 920px) {
+    .monan {
+        flex-wrap: wrap;
+    }
+
+    .thucdon {
+        height: 1700px;
+    }
+
+    .datban {
+        height: 400px;
+    }
+}
+
+@media only all and (max-width: 700px) {
+
+    header{
+        margin-bottom: 100px;
+    }
+
+    footer>.footer2 {
+
+        flex-direction: column;
+    }
+
+    .monan {
+        flex-direction: column;
+    }
+
+    .thucdon {
+        height: 3000px;
+    }
+
+    menu {
+        display: none;
+    }
+
+    .banner {
+        margin-top: 170px;
+    }
+
+
+    .dau3gach>ul>li>img {
+        width: 50px;
+        position: relative;
+    }
+
+    .dau3gach {
+        display: block;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu>li {
+
+        padding: 2px;
+    }
+
+    ul.menu>li>a {
+        text-decoration: none;
+    }
+
+    .dau3gach li:hover .menu {
+        display: block;
+        position: absolute;
+    }
+
+    .menu>li {
+        border-bottom: 1px solid;
+
+    }
+
+    .datban {
+        height: 500px;
+    }
+
+    .thucdon {
+        height: 3300px;
+
+    }
+    
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+   
+}
